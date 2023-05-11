@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=League+Spartan:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body {
+    @apply font-spartan;
+  }
+}
+
+.btn{
+  @apply text-white bg-brand-sky-blue ring-1 lg:hover:ring-brand-sky-blue lg:hover:bg-white lg:hover:text-brand-sky-blue;
+}
+
+.btn-outline{
+  @apply text-brand-sky-blue lg:hover:text-white lg:hover:bg-brand-sky-blue ring-1 ring-brand-sky-blue;
+}
